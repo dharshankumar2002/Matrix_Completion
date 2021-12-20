@@ -9,6 +9,8 @@ st.write("This is a simple matrix completion calculator")
 # second argument displays a default text inside the text input area
 name = st.text_input("Enter Your Matrix", "")
  
+status = st.radio("Select Algotihm: ", ('Singular Value Thresholding', 'Gradient Descent', 'Augmented Lagrange Multipliers'))
+         
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
 if(st.button('Submit')):
