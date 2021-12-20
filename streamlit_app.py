@@ -18,4 +18,4 @@ if(st.button('Submit')):
     st.success(result)
          
     mat = [[1,2,3],[4,5,6],[7,8,9]]
-    st.write(mat)
+    st.write(str(mat))
