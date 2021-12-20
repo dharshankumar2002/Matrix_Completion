@@ -1,4 +1,6 @@
 import streamlit as st
+import time
+
 st.write("""
          # Matrix Completion
          """
