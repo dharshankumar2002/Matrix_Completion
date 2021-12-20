@@ -16,3 +16,6 @@ status = st.radio("Select Algotihm: ", ('Singular Value Thresholding', 'Gradient
 if(st.button('Submit')):
     result = "Wait a minute..."
     st.success(result)
+         
+    mat = [1 2 3; 4 5 6; 7 8 9]
+    st.write(mat)
