@@ -1,1 +1,2 @@
-python-time==0.3.0
+streamlit==0.88.0
+numpy==1.19.5
